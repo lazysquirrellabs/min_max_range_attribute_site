@@ -1,0 +1,15 @@
+title: Min/max Range Attribute
+baseurl: /
+url: minmax.matheusamazonas.net
+homepage: /index.html
+sass:
+  style: compressed
+
+# Build settings
+remote_theme: jekyll/minima@fdc3aba23a1d59ad1d1f65f505693848c4b82fdf
+plugins:
+  - jekyll-remote-theme
+
+# Theme settings
+minima:
+  skin: dark
