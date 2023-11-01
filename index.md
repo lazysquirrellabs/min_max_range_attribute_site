@@ -1,7 +1,7 @@
 # Min/max Range Attribute
 A bounded (i.e., with a minimum and maximum) range attribute for Unity's `Vector2` and `Vector2Int` fields that draws fields as min/max range sliders, easing the definition of bounded ranges on the inspector. It's open source and it's on [GitHub](https://github.com/matheusamazonas/min_max_range_attribute)
 
-![Five images of generated terraced terrains looping.](assets/images/header.gif)
+![Fie examples of attribute usage on the .](assets/images/header.gif)
 
 ## Features
 - Intuitive, compact inspector representation.
@@ -23,7 +23,8 @@ When using the attribute on a field of type `Vector2`, its constructor takes 3 a
 
 For example, the field below has `minLimit` equal to 0, `maxLimit` equal to 10 and `decimals` equal to 3:
 ```csharp
-[SerializeField, MinMaxRange(0f, 10f, 3)] private Vector2 _optimalSpeed = new (3.141f, 5.789f);
+[MinMaxRange(0f, 10f, 3)]
+[SerializeField] private Vector2 _optimalSpeed = new (3.141f, 5.789f);
 ```
 And its inspector representation is:
 ![](assets/images/usage/vector_3.png)
@@ -31,7 +32,8 @@ If `decimals` is 2 (`MinMaxRange(0f, 10f, 2)`):
 ![](assets/images/usage/vector_2.png)
 The default value of `decimals` is 1, so we might as well omit the parameter if we would like to display only 1 decimal place:
 ```csharp
-[SerializeField, MinMaxRange(0f, 10f)] private Vector2 _optimalSpeed = new (3.141f, 5.789f);
+[MinMaxRange(0f, 10f)]
+[SerializeField] private Vector2 _optimalSpeed = new (3.141f, 5.789f);
 ```
 Which will be displayed as:
 ![](assets/images/usage/vector_1.png)
@@ -44,7 +46,8 @@ When using the attribute on a field of type `Vector2Int`, its constructor takes 
 
 For example, the field below has `minLimit` equal to 0 and `maxLimit` equal to 10:
 ```csharp
-[SerializeField, MinMaxRange(0, 10)] private Vector2Int _rewardRange = new(2, 4);
+[MinMaxRange(0, 10)]
+[SerializeField] private Vector2Int _rewardRange = new(2, 4);
 ```
 And its inspector representation is:
 ![](assets/images/usage/vector_int.png)
