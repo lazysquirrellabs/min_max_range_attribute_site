@@ -28,8 +28,10 @@ For example, the field below has `minLimit` equal to 0, `maxLimit` equal to 10 a
 ```
 And its inspector representation is:
 ![](assets/images/usage/vector_3.png)
+
 If `decimals` is 2 (`MinMaxRange(0f, 10f, 2)`):
 ![](assets/images/usage/vector_2.png)
+
 The default value of `decimals` is 1, so we might as well omit the parameter if we would like to display only 1 decimal place:
 ```csharp
 [MinMaxRange(0f, 10f)]
@@ -37,6 +39,7 @@ The default value of `decimals` is 1, so we might as well omit the parameter if 
 ```
 Which will be displayed as:
 ![](assets/images/usage/vector_1.png)
+
 Keep in mind that the `decimals` parameter only controls how the value labels will be displayed on the inspector. It doesn't control the values' precision.
 
 ### Vector2Int usage
