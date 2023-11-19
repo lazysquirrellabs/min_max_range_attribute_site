@@ -1,3 +1,8 @@
+---
+layout: home
+title: Home
+---
+
 # Min/max Range Attribute
 A bounded (i.e., with a minimum and maximum) range attribute for Unity's `Vector2` and `Vector2Int` fields that draws fields as min/max range sliders, easing the definition of bounded ranges on the inspector. It's open source and it's on [GitHub](https://github.com/matheusamazonas/min_max_range_attribute)
 
