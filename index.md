@@ -66,7 +66,7 @@ The first step is to import the library into your Unity project. There are two w
 ### Import using a git URL
 This approach uses Unity's Package Manager to add the attribute to your project using the repo's git URL. To do so, navigate to `Window > Package Manager` in Unity. Then click on the `+` and select "Add package from git URL":
 
-![](https://matheusamazonas.net/min_max_range_attribute_site/assets/images/upm_adding.png)
+![](/assets/images/upm_adding.png)
 
 Next, enter the following in the "URL" input field to install the latest version of the attribute:
 ```
