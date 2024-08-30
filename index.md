@@ -75,9 +75,9 @@ https://github.com/matheusamazonas/min_max_range_attribute.git?path=Assets/Libra
 Finally, click on the "Add" button. The importing process should start automatically. Once it's done, the attribute can be used in your project. 
 
 ### Import with OpenUPM
-Min/max Range Attribute is available as a package on [OpenUPM](https://openupm.com/packages/com.sneakysquirrellabs.minmaxrangeattribute/). To import it into your project via the command line, run the following command:
+Min/max Range Attribute is available as a package on [OpenUPM](https://openupm.com/packages/com.lazysquirrellabs.minmaxrangeattribute/). To import it into your project via the command line, run the following command:
 ```
-openupm add com.sneakysquirrellabs.minmaxrangeattribute
+openupm add com.lazysquirrellabs.minmaxrangeattribute
 ```
 Once the importing process is complete, the attribute can be used in your project. 
 
