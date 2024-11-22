@@ -8,6 +8,8 @@ A bounded (i.e., with a minimum and maximum) range attribute for Unity's `Vector
 
 ![Fie examples of attribute usage on the .](assets/images/header.gif)
 
+![](assets/images/get_unity.webp)
+
 ## Features
 - Intuitive, compact inspector representation.
 - Support for Unity's `Vector2` and `Vector2Int` types.
@@ -15,7 +17,6 @@ A bounded (i.e., with a minimum and maximum) range attribute for Unity's `Vector
 - Custom floating-point decimal places (0 to 3).
 - Error prevention. Unlike using separate fields for minimum and maximum, value integrity is guaranteed (e.g., the minimum will never be greater than the maximum) by the inspector.
 - Uses built-in Unity's  [`EditorGUILayout.MinMaxSlider`](https://docs.unity3d.com/ScriptReference/EditorGUILayout.MinMaxSlider.html) under the hood.
-
 
 ## Usage
 To use the attribute, simply add it to a serialized field of a supported type (`Vector2` or `Vector2Int`). Its inspector representation will be a [`MinMaxSlider`](https://docs.unity3d.com/ScriptReference/EditorGUILayout.MinMaxSlider.html), a slider than can be used to represent a range within minimum and maximum limits. The left handle controls the vector's `x` component and the right handle controls the vector's 
@@ -61,7 +62,16 @@ And its inspector representation is:
 ![](assets/images/usage/vector_int.png)
 
 ## Importing
-The first step is to import the library into your Unity project. There are two ways to do so: via the Package Manager using a git URL, and via OpenUPM.
+The first step is to import the library into your Unity project. There are three ways to do so: 
+- [Via the Asset Store](#import-via-unity-asset-store).
+- Via the Package Manager:
+	- [Using a git URL](#import-using-a-git-url). 
+	- [Using OpenUPM](#import-with-openupm).
+
+### Import via Unity Asset Store
+Click on the image below to visit the package's page on the Unity Asset Store. One there, follow the instructions to import it into your project.
+
+[![](assets/images/get_unity.webp)](https://assetstore.unity.com/packages/tools/utilities/min-max-range-attribute-302500)
 
 ### Import using a git URL
 This approach uses Unity's Package Manager to add the attribute to your project using the repo's git URL. To do so, navigate to `Window > Package Manager` in Unity. Then click on the `+` and select "Add package from git URL":
