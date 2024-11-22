@@ -8,7 +8,7 @@ A bounded (i.e., with a minimum and maximum) range attribute for Unity's `Vector
 
 ![Fie examples of attribute usage on the .](assets/images/header.gif)
 
-![](assets/images/get_unity.webp)
+[![](assets/images/get_unity.webp)](https://assetstore.unity.com/packages/tools/utilities/min-max-range-attribute-302500)
 
 ## Features
 - Intuitive, compact inspector representation.
